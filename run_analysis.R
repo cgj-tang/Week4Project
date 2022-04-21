@@ -107,4 +107,4 @@ train.test.avg <- train.test %>% group_by(subject, activity) %>%
 ###########################
 
 #writing tidied dataset
-train.test.avg %>% write.csv(file = 'tidied_dataset.csv', row.names = FALSE)
+train.test.avg %>% write.table(file = 'tidied_dataset.txt', row.names = FALSE)
