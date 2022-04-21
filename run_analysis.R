@@ -1,5 +1,7 @@
 #loading libraries
 library(tidyverse)
+library(data.table)
+
 
 ###################
 ###FETCHING DATA###
